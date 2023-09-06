@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+height: 20px;
+display: flex;
+justify-content: flex-start;
+padding-left: 100%;
+}
+
+.flex{
+    display: flex;
+    
+    gap: 50px;
+    align-items: center;
+}
+#navcontent{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-self: auto;
+}
+#nav{
+    background: #000;
+    color: white;
+}
+
+.pannel{
+    margin: auto;
+    width: 70%;
+}
+.body{
+    background: #000;
+}
+
+.insidecard{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .cards{
+    margin: auto;
+    width: auto;
+} */
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin: auto;
+    background-color: #000000;
+}
+.container{
+    background: rgb(0, 0, 0);
+    margin: auto;
+    width: 100%;
+}
+
+.sections{
+    width: 100%;
+    margin: auto;
+}
+.custom-card-bg {
+    background-color: black;
+    color: white; /* Change text color to white for better readability on a dark background */
+  }
